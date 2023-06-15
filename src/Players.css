@@ -1,0 +1,65 @@
+/* title animation */
+
+@keyframes slideIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-40px);
+  }
+  100% {
+    opacity:4;
+    transform: translateY(0);
+  }
+}
+
+.title-animation {
+  animation: slideIn 5s ease-in-out;
+}
+
+
+/* background colors */
+
+.yoho{
+  background-color: rgb(74, 124, 56)  ;
+  border-radius: 10px;
+}
+
+
+.inna{
+  background-color: darkolivegreen;
+  border-radius: 20px;
+}
+
+
+body {
+  background-color: #2345299a;
+}
+
+/* adjusting */
+
+.player-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #352020;
+    ;
+  }
+  
+  .player-card {
+    width: 18rem;
+    margin: 10px;
+    background-color: #352020;
+    margin-right: 200px;
+    margin-bottom: 20px !important;
+    border-radius: 20px;
+  }
+  
+  .player-image {
+    height: 200px;
+    object-fit: cover;
+  }
+ .player-image{
+    height: auto;
+    width: 500px;
+ }
+ 
